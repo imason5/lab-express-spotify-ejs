@@ -1,0 +1,11 @@
+.artist-images {
+  height: 300px;
+  width: 300px;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}

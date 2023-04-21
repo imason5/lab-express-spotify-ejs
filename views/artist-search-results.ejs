@@ -1,0 +1,12 @@
+<ul>
+  <% artistsArray.forEach(artist => { %>
+  <div class="artist-card">
+    <h2><%= artist.name %></h2>
+    <img
+      class="artist-images"
+      src="<%= artist.images[0] ? artist.images[0].url : '' %>"
+    />
+    <a href="/albums/<%= artist.id %>">View Albums</a>
+    <% }); %>
+  </div>
+</ul>
